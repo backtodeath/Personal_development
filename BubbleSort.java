@@ -13,8 +13,8 @@ class BubbleSort {
         Instant timeOfBeginning = Instant.now();
 
         for (int i = 0; i < ints.length; i++) {
-            for (int j = 0; j < ints.length - 1; j++)
-                if (ints[i] < ints[j]) {
+            for (int j = i + 1; j < ints.length; j++)
+                if (ints[j] < ints[i]) {
                     int k = ints[i];
                     ints[i] = ints[j];
                     ints[j] = k;
