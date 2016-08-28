@@ -8,21 +8,21 @@ import java.time.temporal.ChronoUnit;
  **/
 
 class BubbleSort {
-    static void sortWithBubbleSorting(int[] unsortedNumbers) {
-        System.out.println("Starting bubble sorting for " + unsortedNumbers.length + " elements");
+    static void sortWithBubbleSorting(int[] ints) {
+        System.out.println("Starting bubble sorting for " + ints.length + " elements");
         Instant timeOfBeginning = Instant.now();
 
-        for (int i = 0; i < unsortedNumbers.length; i++) {
-            for (int j = 0; j < unsortedNumbers.length - 1; j++)
-                if (unsortedNumbers[i] < unsortedNumbers[j]) {
-                    int k = unsortedNumbers[i];
-                    unsortedNumbers[i] = unsortedNumbers[j];
-                    unsortedNumbers[j] = k;
+        for (int i = 0; i < ints.length; i++) {
+            for (int j = 0; j < ints.length - 1; j++)
+                if (ints[i] < ints[j]) {
+                    int k = ints[i];
+                    ints[i] = ints[j];
+                    ints[j] = k;
                 }
         }
 
         Instant timeOfEnding = Instant.now();
 
-        System.out.println("sorting time for " + unsortedNumbers.length + " elements: " + ChronoUnit.MILLIS.between(timeOfBeginning, timeOfEnding) + " ms");
+        System.out.println("sorting time for " + ints.length + " elements: " + ChronoUnit.MILLIS.between(timeOfBeginning, timeOfEnding) + " ms");
     }
 }
