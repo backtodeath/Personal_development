@@ -24,5 +24,6 @@ class BubbleSort {
         Instant timeOfEnding = Instant.now();
 
         System.out.println("sorting time for " + ints.length + " elements: " + ChronoUnit.MILLIS.between(timeOfBeginning, timeOfEnding) + " ms");
+        /*System.out.println("array after sorting: " + Arrays.toString(ints));*/
     }
 }
