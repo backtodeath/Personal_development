@@ -11,7 +11,7 @@ class BubbleSort {
         System.out.println("Starting bubble sorting");
         System.out.println("array before sorting" + Arrays.toString(unsortedNumbers));
 
-        int[] sortedNumbers = {1};
+        int[] sortedNumbers = {2};
 
         System.out.println("array after sorting" + Arrays.toString(sortedNumbers));
     }

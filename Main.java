@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Starting application");
 
 
-        int[] unsortedNumbers = {28, 16, 57, 14, 22, 103, -5, 0, 77, 166};
+        int[] unsortedNumbers = {28, 16, 57, 14, 22, 103, -5, 0, 77, 166, 18};
         BubbleSort.sortWithBubbleSorting(unsortedNumbers);
 
     }
