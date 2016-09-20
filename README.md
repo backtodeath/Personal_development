@@ -1,2 +1,2 @@
-# Personal_development
+# personal-development
 lists of programms for personal development
