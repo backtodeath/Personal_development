@@ -1,3 +1,5 @@
+package bubble;
+
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 
@@ -7,8 +9,8 @@ import java.time.temporal.ChronoUnit;
  * @date 28.08.2016
  **/
 
-class BubbleSort {
-    static void sortWithBubbleSorting(int[] ints) {
+public class BubbleSort {
+    public static int[] sortWithBubbleSorting(int[] ints) {
         System.out.println("Starting bubble sorting for " + ints.length + " elements");
         Instant timeOfBeginning = Instant.now();
 
@@ -23,7 +25,8 @@ class BubbleSort {
 
         Instant timeOfEnding = Instant.now();
 
-        System.out.println("sorting time for " + ints.length + " elements: " + ChronoUnit.MILLIS.between(timeOfBeginning, timeOfEnding) + " ms");
-        /*System.out.println("array after sorting: " + Arrays.toString(ints));*/
+        System.out.println("Bubble sorting: sorting time for " + ints.length + " elements: " + ChronoUnit.MILLIS.between(timeOfBeginning, timeOfEnding) + " ms");
+
+        return ints;
     }
 }
