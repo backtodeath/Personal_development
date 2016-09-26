@@ -30,7 +30,7 @@ public class InsertionSort {
         printResultInfo(ints1k);
     }
 
-    private static int[] sortWithInsertionSorting(int[] ints) {
+    public static int[] sortWithInsertionSorting(int[] ints) {
         System.out.println("Starting insertion sorting for " + ints.length + " elements");
         Instant timeOfBeginning = Instant.now();
 

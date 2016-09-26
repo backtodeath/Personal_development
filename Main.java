@@ -1,5 +1,6 @@
 import static sorts.BubbleSort.makeBubbleSort;
 import static sorts.InsertionSort.makeInsertionSort;
+import static sorts.MergeSort.makeMergeSort;
 
 /**
  * @author backtodeath
@@ -12,5 +13,6 @@ public class Main {
         System.out.println("Starting application");
         makeBubbleSort();
         makeInsertionSort();
+        makeMergeSort();
     }
 }
