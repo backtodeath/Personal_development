@@ -1,4 +1,4 @@
-package sorts123;
+package sorting;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

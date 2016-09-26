@@ -1,6 +1,6 @@
-import static sorts123.BubbleSort.makeBubbleSort;
-import static sorts123.InsertionSort.makeInsertionSort;
-import static sorts123.MergeSort.makeMergeSort;
+import static sorting.BubbleSort.makeBubbleSort;
+import static sorting.InsertionSort.makeInsertionSort;
+import static sorting.MergeSort.makeMergeSort;
 
 /**
  * @author backtodeath

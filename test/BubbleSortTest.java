@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-import static sorts123.BubbleSort.sortWithBubbleSorting;
+import static sorting.BubbleSort.sortWithBubbleSorting;
 
 public class BubbleSortTest {
     @Test
