@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-import static sorts.InsertionSort.sortWithInsertionSorting;
+import static sorts123.InsertionSort.sortWithInsertionSorting;
 
 public class InsertionSortTest {
     @Test

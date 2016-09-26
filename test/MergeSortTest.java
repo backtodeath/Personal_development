@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-import static sorts.MergeSort.sortWithMergeSorting;
+import static sorts123.MergeSort.sortWithMergeSorting;
 
 public class MergeSortTest {
     @Test
